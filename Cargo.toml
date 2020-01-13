@@ -1,0 +1,18 @@
+[package]
+name = "into_inner_drop"
+version = "0.1.0"
+authors = ["Martin Habovstiak <martin.habovstiak@gmail.com>"]
+edition = "2018"
+description = "A helper library for implementing into_inner method for drop types safely."
+homepage = "https://github.com/Kixunil/into_inner_drop"
+repository = "https://github.com/Kixunil/into_inner_drop"
+readme = "README.md"
+keywords = ["unsafe", "wrapper", "into_inner", "drop"]
+categories = ["no-std", "rust-patterns"]
+license = "MITNFA"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dev-dependencies]
+dropcheck = "0.1.1"
